@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<title>Ayşo'nun Uzaktan Kumandası (Web)</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 360px; margin: auto; padding: 10px; background: #f0f0f0; }
+  section { background: white; margin-bottom: 20px; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+  button { margin: 5px 3px; padding: 10px 12px; font-size: 16px; cursor: pointer; }
+  .mouse-controls button { width: 50px; }
+  .keyboard-row button { width: 35px; margin: 2px; }
+  .volume-controls button { width: 60px; }
+</style>
+</head>
+<body>
+
+<h1>Ayşo'nun Uzaktan Kumandası</h1>
+
+<section class="mouse-controls">
+  <h2>🖱 Mouse Kontrolleri</h2>
+  <button onclick="alert('Mouse yukarı hareket ederdi!')">↑</button><br/>
+  <button onclick="alert('Mouse sola hareket ederdi!')">←</button>
+  <button onclick="alert('Mouse tıklama!')">TIK</button>
+  <button onclick="alert('Mouse sağa hareket ederdi!')">→</button><br/>
+  <button onclick="alert('Mouse aşağı hareket ederdi!')">↓</button>
+</section>
+
+<section class="keyboard-controls">
+  <h2>⌨ Klavye Tuşları</h2>
+  <div class="keyboard-row">
+    <button onclick="alert('A yazıldı')">A</button>
+    <button onclick="alert('B yazıldı')">B</button>
+    <button onclick="alert('C yazıldı')">C</button>
+    <button onclick="alert('D yazıldı')">D</button>
+    <button onclick="alert('E yazıldı')">E</button>
+    <button onclick="alert('F yazıldı')">F</button>
+    <button onclick="alert('G yazıldı')">G</button>
+    <button onclick="alert('H yazıldı')">H</button>
+    <button onclick="alert('I yazıldı')">I</button>
+    <button onclick="alert('İ yazıldı')">İ</button>
+  </div>
+  <div class="keyboard-row">
+    <button onclick="alert('J yazıldı')">J</button>
+    <button onclick="alert('K yazıldı')">K</button>
+    <button onclick="alert('L yazıldı')">L</button>
+    <button onclick="alert('M yazıldı')">M</button>
+    <button onclick="alert('N yazıldı')">N</button>
+    <button onclick="alert('O yazıldı')">O</button>
+    <button onclick="alert('Ö yazıldı')">Ö</button>
+    <button onclick="alert('P yazıldı')">P</button>
+    <button onclick="alert('R yazıldı')">R</button>
+    <button onclick="alert('S yazıldı')">S</button>
+  </div>
+  <div class="keyboard-row">
+    <button onclick="alert('Ş yazıldı')">Ş</button>
+    <button onclick="alert('T yazıldı')">T</button>
+    <button onclick="alert('U yazıldı')">U</button>
+    <button onclick="alert('Ü yazıldı')">Ü</button>
+    <button onclick="alert('V yazıldı')">V</button>
+    <button onclick="alert('Y yazıldı')">Y</button>
+    <button onclick="alert('Z yazıldı')">Z</button>
+  </div>
+  <div style="margin-top:10px;">
+    <button onclick="alert('Space basıldı')">␣ Space</button>
+    <button onclick="alert('Backspace basıldı')">⌫ Sil</button>
+  </div>
+</section>
+
+<section class="volume-controls">
+  <h2>🔊 Ses Kontrolleri</h2>
+  <button onclick="alert('Sesi azalt')">🔈 -</button>
+  <button onclick="alert('Sesi kapat')">🔇</button>
+  <button onclick="alert('Sesi arttır')">🔊 +</button>
+</section>
+
+</body>
+</html>
